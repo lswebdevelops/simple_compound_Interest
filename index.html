@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <link href="images/favicon.png" type="image/png" rel="icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple and Compound Interest</title>
+</head>
+<body>
+    
+      <!-- beginning of box   -->
+      <div id="title">
+
+
+        <h2 id="h1Title">Compound Interest Calculator</h2>
+      
+ <div >
+        <div id="container">   
+            <div> Amount</div>
+            <div> <input type="number" value="30000"  id="principal"/>  <br/></div>
+
+
+            <div>  Interest Rate(%) </div>
+
+            <div> 
+                <!-- <input type="range" value="12" > -->
+             <input  maxlength="2" min="1" max="40" value="12"  id="rate" input type="number" value="1000000" /> 
+              
+            </div>
+          
+            <div> No. of Years</div>
+            <div>                
+                <input id="years" type="range" maxlength="2" min="1" max="40" value="20" oninput="this.nextElementSibling.value
+                = this.value" /> 
+                <output> 20 </output><span> years.</span>
+                
+                <br/></div>
+        </div> 
+           
+        <div >
+            <button id="button1"  onclick = "compute(), changeTextHighlight()" >Compute Interest</button>
+            
+            </div> 
+           
+    
+    <hr>
+  </div>
+  
+				                
+          <div id="num1" > </div>
+          <div> </div>
+          <div id="num2"> </div>
+          <div > </div>
+          <div id="num3"> </div>
+          <div> </div>
+          <div id="num4"> </div>
+          <div > </div>
+      
+           <div > </div>
+        <div class="brand">
+
+            <p>LS Web Development®</p>
+            <!-- after comminting2 -->
+
+        </div>
+
+        
+</div>
+    
+    
+
+
+
+</body>
+</html>
